@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("./assets/pexels-wisdomsky-1673973.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.clock {
+  width: 600px;
+  padding: 50px;
+  border-radius: 12px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+h1 {
+  color: orangered;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.time {
+  color: rgb(36, 115, 56);
+  margin-bottom: 15px;
+  font-size: 50px;
+  font-weight: 800;
+}
+.date {
+  color: #8b8b8b;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+@media (max-width: 480px) {
+  .clock {
+    width: 100%;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .time {
+    font-size: 35px;
+  }
+  .date {
+    font-size: 18px;
+  }
+}
